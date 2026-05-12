@@ -1,1 +1,1 @@
-
+The basic workflow of the 2d-plotter we were trying to make was, we will make a robotic arm and control it using BLDC motors which have magnetic angle sensors and which give feedback accordingly. Now, we convert an image to a vector drawing using inkscape and read the g codes generated from there. 1st aim is to just being able to move the robotic arm's tip to x,y. then we have to wrok on reducing the vibrations, stable control, getting that smooth trajectory motion.
