@@ -1,6 +1,7 @@
 Chasis 
 gears with gear ratio 1:12 (will have to check again)
-2 BLDC motors
+belts for gears
+BLDC motors
 power supply and wiring
 1 arduino
 1 micro-servo motor(sg90 or 90s) for pen holder
