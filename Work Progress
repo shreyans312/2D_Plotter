@@ -2,69 +2,127 @@
 
 ## Initial Planning
 
-* The basic workflow of the 2d-plotter we were trying to make was, we will make a robotic arm and control it using BLDC motors which have magnetic angle sensors and which give feedback accordingly. Now, we convert an image to a vector drawing using inkscape and read the g codes generated from there. 1st aim is to just being able to move the robotic arm's tip to x,y. Then we have to wrok on reducing the vibrations, stable control, getting that smooth trajectory motion.
-* Researched existing plotter designs
+The original concept was to develop a robotic arm-based 2D plotter capable of reproducing vector drawings. The intended workflow was to convert an image into a vector graphic using Inkscape, generate G-code from the vector drawing, and use the generated commands to control the plotter.
+
+To achieve precise positioning, BLDC motors with magnetic angle sensors were selected. The feedback provided by these sensors would allow the controller to continuously estimate the position of the robotic arm and move the end effector to a desired (x, y) coordinate.
+
+### Accomplishments
+
+* Researched existing plotter and robotic arm designs
+* Defined overall system workflow
 * Identified hardware requirements
-* Selected BLDC motor(cause of the strength and feedback it gives) 
+* Selected BLDC motors due to their torque and feedback capabilities
+* Established project milestones and development goals
+
+### Initial Goals
+
+* Achieve accurate X-Y positioning
+* Implement closed-loop motor control
+* Reduce vibration during movement
+* Improve trajectory smoothness
+* Develop stable and repeatable motion
+
+---
 
 ## Mechanical Design
 
-* Designed frame structure
+### Accomplishments
+
+* Designed overall frame structure
 * Planned X-axis and Y-axis motion systems
-* Finalized component dimensions
+* Determined mechanical dimensions
+* Prepared manufacturing drawings
+
+---
 
 ## Component Procurement
 
-* Acquired BLDC and servo motors from club
-* Acquired microcontroller from club
-* Procured mechanical components and power supply
+### Accomplishments
+
+* Acquired BLDC motors from the club inventory
+* Acquired servo motor for future pen actuation
+* Obtained microcontroller and supporting electronics
+* Procured power supply and mechanical hardware
+
+---
 
 ## Frame Construction
 
-* Built mechanical frame thru water jet cutting
-* Mounted motors
-* Installed motion transmission system
-* Verified mechanical movement
+### Accomplishments
+
+* Manufactured frame components using water-jet cutting
+* Assembled the mechanical structure
+* Mounted motors onto the frame
+* Installed motion transmission components
+* Verified free mechanical movement
+
+---
 
 ## Electronics Integration
 
+### Accomplishments
+
 * Connected motor drivers
 * Established power distribution
-* Verified electrical connections
+* Integrated controller hardware
+* Verified electrical connectivity
+
+---
 
 ## Firmware Development
 
-* Configured motor control logic
+### Accomplishments
+
+* Developed motor control routines
 * Implemented directional control
 * Implemented coordinate-based movement
-* Developed testing routines
+* Created testing procedures for motion validation
+
+---
 
 ## System Testing
 
-* Tested X-axis movement
-* Tested Y-axis movement
-* Tested simultaneous axis operation
+### Accomplishments
+
+* Verified X-axis movement
+* Verified Y-axis movement
+* Tested coordinated axis movement
 * Validated coordinate tracking
-* Evaluated movement consistency
+* Evaluated motion consistency
+
+---
 
 ## Current State
 
-* Mechanical system complete
-* Electronics integration complete
-* Motor control functional
+### Completed
+
+* Mechanical system assembled
+* Electronics integrated
+* Motion control implemented
 * Coordinate tracking operational
-* Motion testing completed successfully
+* Basic movement testing completed
+
+### In Progress
+
+* Servo motor integration
+* Pen-lifting mechanism
+* Drawing functionality validation
+* Stability improvements
+
+---
 
 ## Remaining Work
 
-* Integrate servo motor
-* Implement pen-lifting mechanism
-* Validate automated drawing functionality
-* Perform final system testing
-* Increase stability
+* Integrate servo motor control
+* Complete pen-lifting mechanism
+* Execute automated drawing tests
+* Improve motion stability
+* Optimize trajectory smoothness
+
+---
 
 ## Project Completion Estimate
 
-Completed: ~85-90%
+Estimated Completion: 85-90%
 
-Remaining effort is focused primarily on the pen actuation subsystem rather than the motion platform itself.
+The motion platform is largely functional and capable of coordinate tracking. The primary remaining tasks involve integrating the pen actuation subsystem and improving overall system stability for reliable drawing operations.
